@@ -1,0 +1,182 @@
+{
+	"metadata": {
+		"type": "App"
+	},
+	"project": {
+		"shadows": true,
+		"shadowType": 1,
+		"vr": false,
+		"physicallyCorrectLights": false,
+		"toneMapping": 0,
+		"toneMappingExposure": 1
+	},
+	"camera": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"object": {
+			"uuid": "F70EF1F6-B319-4611-9E83-D7281BCE3F34",
+			"type": "PerspectiveCamera",
+			"name": "Camera",
+			"layers": 1,
+			"matrix": [-0.757842562895283,5.551115123125783e-17,0.6524374681640449,0,0.47029691969339316,0.6931112350218431,0.5462761419038924,0,-0.4522117393337056,0.7208306429990996,-0.5252691947204686,0,-6.325970025726676,4.530262753404773,-4.801002391863084,1],
+			"fov": 50,
+			"zoom": 1,
+			"near": 0.01,
+			"far": 1000,
+			"focus": 10,
+			"aspect": 1.743810548977395,
+			"filmGauge": 35,
+			"filmOffset": 0
+		}
+	},
+	"scene": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"geometries": [
+			{
+				"uuid": "B715A27B-D0B8-4C70-A206-B13AC793D3AE",
+				"type": "BoxGeometry",
+				"width": 1,
+				"height": 1,
+				"depth": 1,
+				"widthSegments": 1,
+				"heightSegments": 1,
+				"depthSegments": 1
+			},
+			{
+				"uuid": "25FED9D1-12C0-4B53-A3DD-D2336F5521D8",
+				"type": "BoxGeometry",
+				"width": 1,
+				"height": 1,
+				"depth": 1,
+				"widthSegments": 1,
+				"heightSegments": 1,
+				"depthSegments": 1
+			}],
+		"materials": [
+			{
+				"uuid": "2CA74B02-F00C-4BD4-910D-0A1F65778979",
+				"type": "MeshStandardMaterial",
+				"color": 14555931,
+				"roughness": 1,
+				"metalness": 0,
+				"emissive": 0,
+				"envMapIntensity": 1,
+				"refractionRatio": 0.98,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true,
+				"colorWrite": true,
+				"stencilWrite": false,
+				"stencilWriteMask": 255,
+				"stencilFunc": 519,
+				"stencilRef": 0,
+				"stencilFuncMask": 255,
+				"stencilFail": 7680,
+				"stencilZFail": 7680,
+				"stencilZPass": 7680
+			},
+			{
+				"uuid": "37FABDF7-CD16-4F48-8621-451C39790DC8",
+				"type": "MeshStandardMaterial",
+				"color": 16777215,
+				"roughness": 1,
+				"metalness": 0,
+				"emissive": 0,
+				"envMapIntensity": 1,
+				"refractionRatio": 0.98,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true,
+				"colorWrite": true,
+				"stencilWrite": false,
+				"stencilWriteMask": 255,
+				"stencilFunc": 519,
+				"stencilRef": 0,
+				"stencilFuncMask": 255,
+				"stencilFail": 7680,
+				"stencilZFail": 7680,
+				"stencilZPass": 7680
+			}],
+		"object": {
+			"uuid": "3741222A-BD8F-401C-A5D2-5A907E891896",
+			"type": "Scene",
+			"name": "Scene",
+			"layers": 1,
+			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+			"children": [
+				{
+					"uuid": "8F137DA1-424D-4779-82AD-957961080531",
+					"type": "Mesh",
+					"name": "Box",
+					"layers": 1,
+					"matrix": [0.13425872796541866,0,0,0,0,4.801583633944414,0,0,0,0,5.165057033298634,0,0,0,0,1],
+					"geometry": "B715A27B-D0B8-4C70-A206-B13AC793D3AE",
+					"material": "2CA74B02-F00C-4BD4-910D-0A1F65778979"
+				},
+				{
+					"uuid": "591F54C2-D34E-4D78-8E93-463DD8455DA9",
+					"type": "PointLight",
+					"name": "PointLight",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-3.958438180607088,0,0,1],
+					"color": 16777215,
+					"intensity": 1,
+					"distance": 0,
+					"decay": 1,
+					"shadow": {
+						"camera": {
+							"uuid": "32AD460D-2F5D-4E33-9BA5-AAF0EEED0934",
+							"type": "PerspectiveCamera",
+							"layers": 1,
+							"fov": 90,
+							"zoom": 1,
+							"near": 0.5,
+							"far": 500,
+							"focus": 10,
+							"aspect": 1,
+							"filmGauge": 35,
+							"filmOffset": 0
+						}
+					}
+				},
+				{
+					"uuid": "0ED5B4EF-EBF0-4B5E-B684-C68A60376264",
+					"type": "PerspectiveCamera",
+					"name": "PerspectiveCamera",
+					"layers": 1,
+					"matrix": [-0.37993012036542595,-9.182990628790267e-18,0.925015191031538,0,-4.652802058051877e-17,1,-9.182990628790267e-18,0,-0.925015191031538,-4.652802058051877e-17,-0.37993012036542595,0,-5.8605505864799365,0,-1.4446209109531265,1],
+					"fov": 50,
+					"zoom": 1,
+					"near": 0.1,
+					"far": 2000,
+					"focus": 10,
+					"aspect": 1,
+					"filmGauge": 35,
+					"filmOffset": 0
+				},
+				{
+					"uuid": "F8711628-1960-4CEC-BE4D-A25BD3FC23DD",
+					"type": "Mesh",
+					"name": "Box",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-1.4856586938104925,0,-0.7941161234619208,1],
+					"geometry": "25FED9D1-12C0-4B53-A3DD-D2336F5521D8",
+					"material": "37FABDF7-CD16-4F48-8621-451C39790DC8"
+				}]
+		}
+	},
+	"scripts": {
+		"0ED5B4EF-EBF0-4B5E-B684-C68A60376264": [
+			{
+				"name": "camera",
+				"source": "player.setCamera(this);"
+			}]
+	}
+}
